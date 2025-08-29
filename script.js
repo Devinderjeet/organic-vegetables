@@ -19,9 +19,9 @@ function toggleLanguage() {
     document.getElementById("cauliflower-title").innerText = "ਗੋਭੀ";
     document.getElementById("cauliflower-price").innerText = "₹60 / ਪੀਸ";
     document.getElementById("contact-title").innerText = "ਸਾਡੇ ਨਾਲ ਸੰਪਰਕ ਕਰੋ";
-    document.getElementById("address").innerText = "📍 ਖੇਤ ਦਾ ਪਤਾ: ਲੁਧਿਆਣਾ, ਪੰਜਾਬ, ਭਾਰਤ";
+    document.getElementById("address").innerText = "📍 ਖੇਤ ਦਾ ਪਤਾ: ਬਰਨਾਲ, ਪੰਜਾਬ, ਭਾਰਤ";
     document.getElementById("phone").innerHTML = "📞 ਕਾਲ/ਵਟਸਐਪ: <a href='https://wa.me/916239007589'>+91 62390 07589</a>";
-    document.getElementById("email").innerText = "📧 ਈਮੇਲ: organicfarm@email.com";
+    document.getElementById("email").innerText = "📧 ਈਮੇਲ: devinderjeetece@gmail.com";
     document.getElementById("follow-text").innerText = "ਸਾਨੂੰ ਫਾਲੋ ਕਰੋ";
   } else {
     location.reload();
