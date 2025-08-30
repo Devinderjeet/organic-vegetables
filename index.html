@@ -1,74 +1,70 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"/>
-<meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>Organic Vegetables & Fruits / ਜੈਵਿਕ ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</title>
-<link rel="stylesheet" href="style.css"/>
+  <meta charset="utf-8"/>
+  <meta name="viewport" content="width=device-width,initial-scale=1"/>
+  <title>Organic Vegetables & Fruits / ਜੈਵਿਕ ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</title>
+  <link rel="stylesheet" href="style.css"/>
 </head>
 <body>
-<header>
-  <div class="brand">
-    <h1 id="site-title-en">Organic Fresh Vegetables & Fruits</h1>
-    <h1 id="site-title-pa" style="display:none">ਜੈਵਿਕ ਤਾਜ਼ੀਆਂ ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</h1>
-  </div>
-  <nav>
-    <a href="#products" id="nav-products-en">Products</a>
-    <a href="#products" id="nav-products-pa" style="display:none">ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</a>
-    <a href="#cart" id="nav-cart-en">Cart</a>
-    <a href="#cart" id="nav-cart-pa" style="display:none">ਕਾਰਟ</a>
-    <button id="lang-switch">ਪੰਜਾਬੀ</button>
-  </nav>
-</header>
+  <header>
+    <div class="brand">
+      <h1 id="site-title-en">Organic Fresh Vegetables & Fruits</h1>
+      <h1 id="site-title-pa" style="display:none">ਜੈਵਿਕ ਤਾਜ਼ੀਆਂ ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</h1>
+    </div>
+    <nav>
+      <button id="lang-switch">ਪੰਜਾਬੀ</button>
+    </nav>
+  </header>
 
-<main>
-  <section id="hero" class="hero">
-    <h2 id="hero-en">Fresh From Our Farm to Your Table</h2>
-    <h2 id="hero-pa" style="display:none">ਸਾਡੇ ਖੇਤੋਂ ਤੁਹਾਡੀ ਮੇਜ਼ ਤੱਕ ਤਾਜ਼ਾ</h2>
-    <p id="sub-en">100% organic • Chemical-free • Straight from Punjab</p>
-    <p id="sub-pa" style="display:none">100% ਜੈਵਿਕ • ਰਸਾਇਣ-ਰਹਿਤ • ਸਿੱਧਾ ਪੰਜਾਬ ਤੋਂ</p>
-  </section>
+  <main>
+    <section id="hero" class="hero">
+      <h2 id="hero-en">Fresh From Our Farm to Your Table</h2>
+      <h2 id="hero-pa" style="display:none">ਸਾਡੇ ਖੇਤੋਂ ਤੁਹਾਡੀ ਮੇਜ਼ ਤੱਕ ਤਾਜ਼ਾ</h2>
+      <p id="sub-en">100% organic • Chemical-free • Straight from Punjab</p>
+      <p id="sub-pa" style="display:none">100% ਜੈਵਿਕ • ਰਸਾਇਣ-ਰਹਿਤ • ਸਿੱਧਾ ਪੰਜਾਬ ਤੋਂ</p>
+    </section>
 
-  <section id="products" class="section">
-    <h2 id="products-title-en">Products</h2>
-    <h2 id="products-title-pa" style="display:none">ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</h2>
-    <div id="products-grid" class="grid"></div>
-  </section>
+    <section id="products-section" class="section">
+      <h2 id="products-title-en">Products</h2>
+      <h2 id="products-title-pa" style="display:none">ਸਬਜ਼ੀਆਂ ਅਤੇ ਫਲ</h2>
+      <div id="products-grid" class="grid"></div>
+    </section>
 
-  <section id="cart" class="section">
-    <h2 id="cart-title-en">Your Cart</h2>
-    <h2 id="cart-title-pa" style="display:none">ਤੁਹਾਡਾ ਕਾਰਟ</h2>
-    <div id="cart-contents"></div>
-    <p><strong id="total-label-en">Total:</strong><strong id="total-label-pa" style="display:none">ਕੁੱਲ:</strong> <span id="cart-total">₹0</span></p>
-  </section>
+    <section id="cart-section" class="section">
+      <h2 id="cart-title-en">Your Cart</h2>
+      <h2 id="cart-title-pa" style="display:none">ਤੁਹਾਡਾ ਕਾਰਟ</h2>
+      <div id="cart-contents"></div>
+      <p><strong id="total-label-en">Total:</strong><strong id="total-label-pa" style="display:none">ਕੁੱਲ:</strong> <span id="cart-total">₹0</span></p>
+    </section>
 
-  <section id="checkout" class="section">
-    <h2 id="checkout-title-en">Delivery Details</h2>
-    <h2 id="checkout-title-pa" style="display:none">ਡਿਲੀਵਰੀ ਵੇਰਵੇ</h2>
-    <form id="checkout-form">
-      <label id="label-name-en" for="name">Name:</label>
-      <label id="label-name-pa" for="name" style="display:none">ਨਾਮ:</label>
-      <input id="name" required>
+    <section id="checkout" class="section">
+      <h2 id="checkout-title-en">Delivery Details</h2>
+      <h2 id="checkout-title-pa" style="display:none">ਡਿਲੀਵਰੀ ਵੇਰਵੇ</h2>
+      <form id="checkout-form">
+        <label id="label-name-en" for="name">Name:</label>
+        <label id="label-name-pa" for="name" style="display:none">ਨਾਮ:</label>
+        <input id="name" required>
 
-      <label id="label-phone-en" for="phone">Phone (WhatsApp):</label>
-      <label id="label-phone-pa" for="phone" style="display:none">ਫ਼ੋਨ ਨੰਬਰ (WhatsApp):</label>
-      <input id="phone" required>
+        <label id="label-phone-en" for="phone">Phone (WhatsApp):</label>
+        <label id="label-phone-pa" for="phone" style="display:none">ਫ਼ੋਨ ਨੰਬਰ (WhatsApp):</label>
+        <input id="phone" required>
 
-      <label id="label-address-en" for="address">Delivery Address:</label>
-      <label id="label-address-pa" for="address" style="display:none">ਪਤਾ:</label>
-      <textarea id="address" required></textarea>
+        <label id="label-address-en" for="address">Delivery Address:</label>
+        <label id="label-address-pa" for="address" style="display:none">ਪਤਾ:</label>
+        <textarea id="address" required></textarea>
 
-      <button type="submit" id="place-order-en">Place Order via WhatsApp</button>
-      <button type="submit" id="place-order-pa" style="display:none">WhatsApp ਰਾਹੀਂ ਆਰਡਰ ਕਰੋ</button>
-    </form>
-  </section>
-</main>
+        <button type="submit" id="place-order-en">Place Order via WhatsApp</button>
+        <button type="submit" id="place-order-pa" style="display:none">WhatsApp ਰਾਹੀਂ ਆਰਡਰ ਕਰੋ</button>
+      </form>
+    </section>
+  </main>
 
-<footer>
-  <p id="footer-en">© 2025 Organic Fresh Vegetables</p>
-  <p id="footer-pa" style="display:none">© 2025 ਜੈਵਿਕ ਤਾਜ਼ੀਆਂ ਸਬਜ਼ੀਆਂ</p>
-</footer>
+  <footer>
+    <p id="footer-en">© 2025 Organic Fresh Vegetables</p>
+    <p id="footer-pa" style="display:none">© 2025 ਜੈਵਿਕ ਤਾਜ਼ੀਆਂ ਸਬਜ਼ੀਆਂ</p>
+  </footer>
 
-<script src="script.js"></script>
+  <script src="script.js"></script>
 </body>
 </html>

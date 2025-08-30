@@ -1,8 +1,7 @@
 *{box-sizing:border-box}
 body{font-family:Segoe UI, Tahoma, Arial, sans-serif;margin:0;background:#f7fff4;color:#143214}
-header{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:#2e7d32;color:#fff;position:sticky;top:0}
+header{display:flex;justify-content:space-between;align-items:center;padding:12px 18px;background:#2e7d32;color:#fff;position:sticky;top:0;z-index:10}
 .brand h1{margin:0;font-size:18px}
-nav a{color:white;margin-right:12px;text-decoration:none;font-weight:600}
 nav button{background:#ffeb3b;border:none;padding:6px 10px;border-radius:6px;cursor:pointer;font-weight:700}
 .hero{padding:28px;text-align:center;background-image:url('https://images.unsplash.com/photo-1567306226416-28f0efdc88ce');background-size:cover;color:white;text-shadow:1px 1px 4px rgba(0,0,0,0.6)}
 .section{padding:18px}
